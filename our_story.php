@@ -1,45 +1,133 @@
-<?
-ob_start();
-?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<h1>
-	How it all Happened...
-</h1>
+<html>
 
-<p>
-	He said: "She wanted me from the moment she saw me!"
-</p>
+<head>
+	<title>Jennifer and Mark's Wedding Celebration</title>
 
-<p>
-	<img src="images/jen.1.jpg" width="150" height="146" align="right" alt="Jennifer" class="img_border" />
-	She said: "Ugh!  A lady never chases a boy.  He wanted me, and did everything he could to get me!"
-</p>
+	<link rel="stylesheet" href="style.css" type="text/css" />
 
-<p>
-	The truth: Maybe a little bit of both... We met on our second day of college at a Filipinos in Liberal Arts and Humanities (FILAH) meeting.  They were holding salsa lessons and we were partners.  After much twirling and hip-rocking, Mark walked me home.  
-</p>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
 
-<p>
-	Three years later Mark was elected president of Mga Kapatid, the Filipino-student association at UC Davis, and I was elected his secretary.  We worked really closely with each other on several school events.  After a while, I got to know him as more than just a class clown who wore neon orange jumpsuits and zipper earrings in his ear.  He was actually very smart, confident and sincere.
-</p>
-
-<p>
-	<img src="images/mark.1.jpg" width="147" height="210" align="left" alt="Mark" class="img_border" />
-	It's nice to know that Mark and I were friends before we were a couple.  However, it does put a downer on the courting portion of our relationship.  He knew he couldn't pull the same tricks he's done with other girls because I already knew of them when he'd done it.  There was no recycling happening with me!  That just meant that I demanded and deserved creativity &ndash; nothing more than any other girl would expect, no?
-</p>
-
-<p style="clear: both;">
-	In the end, it must have been worth it because here we are five years later � turning 26 and getting married.
-</p>
+<body>
 
 <div align="center">
-	<img src="images/jenmark.3.jpg" alt="" class="img_border" />
+
+
+	<div class="ydsf">
+
+		<div id="container">
+
+			<div id="container_1">
+
+				<div id="header">
+
+					<img src="images/header.1.jpg" alt="" /><br />
+					<img src="images/header.2.jpg" alt="A Wedding Celebration" /><br />
+					Jen and Mark<img src="images/header.3.jpg" align="middle" alt="Jennifer and Mark - July 21, 2007" />July 21, 2007
+
+				</div>
+
+				<div id="body">
+
+					<div id="body_menu">
+
+						<div align="center">
+
+							<img src="images/jenmark.2.jpg" alt="" style="padding: 12px;" />
+
+						</div>
+
+						<div id="menu">
+
+							<ul>
+								<li><a  href="." >Welcome</a></li>
+								<li><a 		class="active"  href="our_story.php">Our Story</a></li>
+								<li><a  href="bridal_party.php">Bridal Party</a></li>
+								<li><a  href="bridal_shower.php">Bridal Shower</a></li>
+								<li><a  href="gift_registry.php">Gift Registry</a></li>
+								<li><a  href="wedding_details.php">Wedding Details</a></li>
+								<li><a  href="honeymoon.php">Honeymoon, Baby!</a></li>
+								<li><a  href="guestbook.php">Wedding Guestbook</a></li>
+							</ul>
+
+						</div>
+
+
+					</div>
+
+
+					<div id="body_main">
+
+						<div id="subtitle">
+							<img src="images/blank.gif" width="200" height="25" alt="" />
+						</div>
+
+						<div class="body">
+
+
+							<h1>
+								How it all Happened...
+							</h1>
+
+							<p>
+								He said: "She wanted me from the moment she saw me!"
+							</p>
+
+							<p>
+								<img src="images/jen.1.jpg" width="150" height="146" align="right" alt="Jennifer" class="img_border" />
+								She said: "Ugh!  A lady never chases a boy.  He wanted me, and did everything he could to get me!"
+							</p>
+
+							<p>
+								The truth: Maybe a little bit of both... We met on our second day of college at a Filipinos in Liberal Arts and Humanities (FILAH) meeting.  They were holding salsa lessons and we were partners.  After much twirling and hip-rocking, Mark walked me home.
+							</p>
+
+							<p>
+								Three years later Mark was elected president of Mga Kapatid, the Filipino-student association at UC Davis, and I was elected his secretary.  We worked really closely with each other on several school events.  After a while, I got to know him as more than just a class clown who wore neon orange jumpsuits and zipper earrings in his ear.  He was actually very smart, confident and sincere.
+							</p>
+
+							<p>
+								<img src="images/mark.1.jpg" width="147" height="210" align="left" alt="Mark" class="img_border" />
+								It's nice to know that Mark and I were friends before we were a couple.  However, it does put a downer on the courting portion of our relationship.  He knew he couldn't pull the same tricks he's done with other girls because I already knew of them when he'd done it.  There was no recycling happening with me!  That just meant that I demanded and deserved creativity &ndash; nothing more than any other girl would expect, no?
+							</p>
+
+							<p style="clear: both;">
+								In the end, it must have been worth it because here we are five years later ï¿½ turning 26 and getting married.
+							</p>
+
+							<div align="center">
+								<img src="images/jenmark.3.jpg" alt="" class="img_border" />
+							</div>
+
+
+						</div>
+
+					</div>
+
+					<br style="clear: both;" />
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
 </div>
 
-<?
-$page = ob_get_contents();
-ob_end_clean();
+<br />
 
-require_once("body.php");
-body($page, "our_story");
-?>
+<div class="copyright serif" align="center">
+	a Design by Justin Dela Cruz<br />
+	www.jenandmarkswedding.net
+</div>
+
+</body>
+
+</html>
+
